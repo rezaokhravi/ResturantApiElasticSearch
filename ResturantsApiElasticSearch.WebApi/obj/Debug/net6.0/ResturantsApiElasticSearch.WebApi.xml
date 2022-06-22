@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ResturantsApiElasticSearch.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.FoodController.Get">
+            <summary>
+            دریافت لیست کلیه غذاها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.FoodController.Get(System.String)">
+            <summary>
+            دریافت لیست غذا ها توسط کویری دلخواه
+            </summary>
+            <param name="query">کویری دلخواه</param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.FoodController.GetById(System.String)">
+            <summary>
+            دریافت اطلاعات غذا بر اساس شناسه
+            </summary>
+            <param name="id">شناسه غذا</param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.FoodController.DeleteById(System.String)">
+            <summary>
+            حدف یک داکیومنت خاص بر اساس شناسه
+            </summary>
+            <param name="id">شناسه غذا</param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.FoodController.Update(ResturantsApiElasticSearch.WebApi.Indices.FoodIndex)">
+            <summary>
+            آپدیت یک داکومنت بر اساس مدل آن
+            </summary>
+            <param name="foodIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.ResturantController.Get">
+            <summary>
+            دریافت لیست کلیه رستوران
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.ResturantController.Get(System.String)">
+            <summary>
+            دریافت لیست رستوران ها توسط کویری دلخواه
+            </summary>
+            <param name="query">کویری دلخواه</param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.ResturantController.GetById(System.String)">
+            <summary>
+            دریافت اطلاعات رستوران بر اساس شناسه
+            </summary>
+            <param name="id">شناسه رستوران</param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.ResturantController.DeleteById(System.String)">
+            <summary>
+            حدف یک داکیومنت خاص بر اساس شناسه
+            </summary>
+            <param name="id">شناسه رستوران</param>
+            <returns></returns>
+        </member>
+        <member name="M:ResturantsApiElasticSearch.WebApi.Controllers.ResturantController.Update(ResturantsApiElasticSearch.WebApi.Indices.ResturantIndex)">
+            <summary>
+            آپدیت یک داکومنت بر اساس مدل آن
+            </summary>
+            <param name="resturantIndex"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

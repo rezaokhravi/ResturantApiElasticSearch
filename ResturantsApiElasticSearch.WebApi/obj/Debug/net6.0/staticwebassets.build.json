@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nbUsCrJKfE2YTur2Xv6Nl4A3FyrrEQOsOqpVVznjAXg=",
+  "Source": "ResturantsApiElasticSearch.WebApi",
+  "BasePath": "_content/ResturantsApiElasticSearch.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
